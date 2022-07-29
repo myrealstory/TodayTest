@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 .BorderBottom {
-    border-bottom: 1px solid rgb(66, 66, 66);
+    border-bottom: 1px solid rgb(131, 131, 131);
 }
 .nav{
     width: 100%;
@@ -26,5 +26,20 @@
 .navBtn{
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;  
+    letter-spacing:1px ; 
 }
+
+.LOGO, .navBtn li a{
+    padding: 30px 10px;
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+}
+.navBtn li a {
+    font-size: 16px;
+}
+.navBtn li a:hover {
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+}
+
