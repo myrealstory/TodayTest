@@ -14,7 +14,7 @@
 }
 
 .navBox {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -43,3 +43,20 @@
     font-size: 18px;
 }
 
+/*________________Sec1__________*/
+
+#sec1 {
+    /* padding:15px 0 15px 10px;  */
+    /* 上右下左      */
+    padding: 15px 0;
+    margin-left: 10px;
+}
+
+.sec1box {
+    text-transform: uppercase;
+}
+.sec1box span{
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: rgb(173, 173, 173);
+}
