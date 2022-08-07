@@ -1,0 +1,43 @@
+.coneainer{
+    width: 100%
+    height 100%;
+    justify-content: space-between;
+}
+.row{
+    width: 80%;
+    margin: 0 auto;
+}
+.BorderBottom{
+    border-bottom: 1px solid rgb(131,131,131);
+}
+.nav{
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo h2{
+    font-size: 20px;
+}
+.nav-Box{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-Btn{
+    display: flex;
+    align-items:center
+    justify-content: space-around;
+    letter-spacing:1px ;
+}
+.Logo, .nav-Box li a{
+    padding: 30px 10px;
+    color:cadetblue
+    text-decoration: none;
+}
+.nav-Box li a{
+    font-size: 16px; 
+}
+.nav-Btn li a:hover{
+    color:darkolivegreen
+    font-size: 18px;
+}
