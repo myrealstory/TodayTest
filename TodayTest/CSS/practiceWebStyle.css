@@ -32,3 +32,88 @@
 .navselector li {
     margin-right: 15px;
 }
+
+/*——————————————————section1—————————————— */
+
+#sec1{
+    margin: 30px 0;
+}
+
+#sec1 span {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 3px;
+    color: rgb(182, 182, 182);
+    letter-spacing: 1.5px;
+}
+.blackfont {
+    color: black;
+}
+
+/*_________________Section2___________*/
+
+#sec2 {
+   display: flex;
+   justify-content: center; 
+}
+.sec2imgarea {
+    width: 50%;
+}
+ .sec2content {
+    width: 50%;
+} 
+
+.mainimg {
+    height: 60vh;
+    background-image: url(../img/d2874e086ce5f79fbce571f4689ff17c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% center;
+}
+
+.smallimg img{  
+    width: 32%;
+}
+.smallimg{
+    overflow: hidden;
+    height: 25vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*_____sec2Content_____*/
+
+.sec2content {
+    margin: 0px 0;
+    padding: 0 40px;
+}
+
+.sec2content h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 60px 0;
+}
+
+.borderBottom {
+    border-bottom: 1px solid black;
+}
+
+.sec2p {
+    font-size: 20px;
+    margin: 60px 0;
+}
+
+.sec2p p {
+    line-height: 28px;
+    margin: 30px 0;
+    color: rgb(182, 182, 182);
+}
+
+.sec2BTN a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 40px;
+    background-color: rgb(64, 64, 64);
+}
