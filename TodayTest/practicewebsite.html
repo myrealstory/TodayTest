@@ -1,58 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/practiceWebStyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/practiceWebStyle.css" />
     <title>Document</title>
-</head>
-<body>
-    <!-- 先建立100%宽度的class -->
+  </head>
+  <body>
     <div class="container">
-        <section class="row">
-            <nav class="navbar">
-                <div class="navLogo">shopshop</div>
-                    <ul class="navselector">
-                        <li>Products</li>
-                        <li>About</li>
-                        <li>MyAccount</li>
-                        <li>Cart(0)</li>
-                    </ul>
-            </nav>
-            <section id="sec1">
-                <span>home</span>
-                <span>/</span>
-                <span >household plants</span>
-                <span>/</span>
-                <span style="color:black">bonsai</span>
-            </section>
-
-            <section id="sec2">
-                <div class="sec2imgarea">
-                    <div class="mainimg"></div>
-                    <div class="smallimg">
-                        <img src="./img/5f18454f2f2914121973102fa0f9692b.jpg" alt="" style="margin-right: 10px;">
-                        <img src="./img/6662056c5005a9c475c793333409aa72.jpg" alt="">
-                        <img src="./img/ee2e7c404394845774d243191dffb3f8.jpg" alt="" style="margin-left: 10px;">
-                    </div>
-                </div>
-                <div class="sec2content">
-                    <div class="borderBottom">
-                        <h2>Bonsai</h2>
-                        <h2>$19.99</h2>
-                    </div>
-                    <div class="sec2p">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam temporibus commodi, cumque nesciunt qui optio. Ratione quia sapiente, neque magnam exercitationem cum reprehenderit quod quo atque ab, consectetur aut!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsa molestias laudantium pariatur ipsam sunt a mollitia repellendus itaque nobis, ab provident commodi possimus doloremque, non nostrum eius dolor quam sapiente hic, accusantium amet dolorem. Aliquid animi veniam ratione minus, inventore consequuntur. Adipisci vero placeat commodi excepturi impedit, vel consectetur.</p>
-                    </div>
-                    <div class="sec2BTN">
-                        <a href="#">add to cart</a>
-                    </div>
-                </div>
-            </section>
+      <div class="row">
+        <nav>
+          <h3>shopshop</h3>
+          <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Cart(0)</a></li>
+          </ul>
+        </nav>
+        <section id="section1">
+          <ul>
+            <li><a href="#">home</a></li>
+            <span>&nbsp;&nbsp; / &nbsp;&nbsp;</span>
+            <li><a href="#">household plants</a></li>
+            <span>&nbsp;&nbsp; / &nbsp;&nbsp;</span>
+            <li><a href="#">bonsai</a></li>
+          </ul>
         </section>
+        <section id="allContent">
+          <section id="imagedisplay">
+            <div class="bigscreen"></div>
+            <ul>
+              <li>
+                <img
+                  src="../TodayTest/img/5f18454f2f2914121973102fa0f9692b.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="middlemargin">
+                <img
+                  src="../TodayTest//img/6662056c5005a9c475c793333409aa72.jpg"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="../TodayTest/img/6bdcbccca5addf470cbc539d4a02a9ae.jpg"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </section>
+
+          <section id="content">
+            <div class="contentTitle">
+              <h4>Bonsai</h4>
+              <p>$19.99</p>
+            </div>
+            <div class="contentbox">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus expedita debitis quas et necessitatibus quam,
+                accusantium maiores aliquid vero, saepe ab vel molestiae
+                explicabo optio, aperiam reiciendis ratione nam! Necessitatibus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, dignissimos facilis. Corrupti explicabo commodi
+                accusantium rerum nemo libero aspernatur ratione a earum,
+                consequuntur iste dolore, eligendi mollitia provident quibusdam
+                facere?
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus blanditiis quo dolore, temporibus explicabo distinctio
+                nulla itaque cum aliquam ducimus.
+              </p>
+
+              <button class="contentBtn">add to cart</button>
+            </div>
+          </section>
+        </section>
+        <section id="finaldone">
+          <h4>You may also like</h4>
+          <ul class="finalimg">
+            <li>
+              <a href="https://www.google.com" target="_blank">
+                <img
+                  src="../TodayTest/img/ee2e7c404394845774d243191dffb3f8.jpg"
+                  alt=""
+                />
+                <h5>Succulent</h5>
+                <p>$19.99</p>
+              </a>
+            </li>
+            <li>
+              <img
+                src="../TodayTest/img/ee2e7c404394845774d243191dffb3f8.jpg"
+                alt=""
+              />
+              <h5>Terranium</h5>
+              <p>$19.99</p>
+            </li>
+            <li>
+              <img
+                src="../TodayTest/img/ee2e7c404394845774d243191dffb3f8.jpg"
+                alt=""
+              />
+              <h5>Cactus</h5>
+              <p>$19.99</p>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>&copy;Copyright 2018 Nemo san</p>
+        </section>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,119 +1,189 @@
-.container {
-    width: 100%;
-}
-
-.row {
-    width: 80%;
-    margin: 0 auto;
-}
-.row2 {
-    background-color: #ffa;
-}
-
-.navbar {
-    display: flex;
-    justify-content:space-between;
-    font-size: 23px;
-    color: grey;
-    padding:30px 10px ;
-    border-bottom: 1px solid rgb(54, 54, 54);
-}
-
-.navLogo {
-    /* 控制文字大小写（文字，变化，大写） */
-    text-transform: uppercase;
-}
-
-.navselector {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.navselector li {
-    margin-right: 15px;
-}
-
-/*——————————————————section1—————————————— */
-
-#sec1{
-    margin: 30px 0;
-}
-
-#sec1 span {
-    font-size: 15px;
-    text-transform: uppercase;
-    margin: 0 3px;
-    color: rgb(182, 182, 182);
-    letter-spacing: 1.5px;
-}
-.blackfont {
+a{
+    text-decoration: none;
     color: black;
 }
 
-/*_________________Section2___________*/
+a:hover {
+    color: pink;
+    padding-bottom: 3px;
+    border-bottom: 2px solid pink;
+}
 
-#sec2 {
-   display: flex;
-   justify-content: center; 
+.container {
+    width: 100%;
+    margin:20px 0;
 }
-.sec2imgarea {
-    width: 50%;
+
+.row{
+    width: 80%;
+    margin: 0 auto;
 }
- .sec2content {
-    width: 50%;
+
+.row nav{
+ display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+        border-bottom: 1px solid #A7A7A7;
+          padding-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+
+}
+nav ul li {
+    padding: 10px;
+}
+
+nav h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+/**********************************/
+
+#section1 ul{
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/***************************************/
+
+#allContent {
+    display: flex;
+    justify-content: center;
+        margin-top: 15px;   
+        padding-bottom:50px;
+        border-bottom: 1px solid #A7A7A7;
+}
+
+.bigscreen{
+    background-image: url(../img/d2874e086ce5f79fbce571f4689ff17c.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 50vh; /* view width 現在看到熒幕的寬 == 50%*/
+     /* view height 現在看到熒幕的高 == 50%*/
+    margin-bottom: 15px;
+}
+
+#imagedisplay {
+
+    margin-right: 30px;
+}
+
+#imagedisplay ul{
+    display: flex;
+    justify-content: center;
+}
+
+#imagedisplay ul li {
+    width: 12.8vw;
+    height: 22vh;
+    object-fit: fill;
+    overflow-y: hidden;
+}
+
+.middlemargin{
+    margin: 0 15px;
+}
+
+img{
+    width: 100%;
+}
+
+/***********************************/
+
+#content {
+    width: 50vw;
+    /* % === 最大的div（階梯等級）有固定大小才可以使用*/
+    /*如果 #allContent 有 2000px */
+    /*那 我在content 下 使用 80% 的話，就等於*/
+    /* allContent 的 80%  === 2000px 的 80%*/
+    /*如果 allContent 沒有 高寬， 那 80%就等於 ？（沒有值） */
+}
+
+.contentTitle h4, .contentTitle p {
+    font-size: 50px;
+}
+
+.contentTitle h4 {
+    margin-bottom: 15px;
+}
+
+.contentTitle {
+    padding: 6vh 0;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.contentbox p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentbox {
+    margin-top: 30px;
+}
+
+.contentBtn {
+    font-size: 20px;
+    color: white;
+    background-color: chocolate;
+    font-weight: 700;
+    padding: 20px 45px;
+    border: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contentBtn:hover {
+    background-color:crimson;
+}
+
+/*****************************/
+
+#finaldone h4 {
+    font-size: 30px;
+    margin: 50px 0;
+}
+
+.finalimg img{
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.finalimg h5 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.finalimg p {
+    font-size: 18px;
+    color: #A7A7A7;
+}
+
+.finalimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+/***************************************/
+
+#footer {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
 } 
 
-.mainimg {
-    height: 60vh;
-    background-image: url(../img/d2874e086ce5f79fbce571f4689ff17c.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% center;
-}
-
-.smallimg img{  
-    width: 32%;
-}
-.smallimg{
-    overflow: hidden;
-    height: 25vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/*_____sec2Content_____*/
-
-.sec2content {
-    margin: 0px 0;
-    padding: 0 40px;
-}
-
-.sec2content h2{
-    font-size: 45px;
-    font-weight: 500;
-    margin: 60px 0;
-}
-
-.borderBottom {
-    border-bottom: 1px solid black;
-}
-
-.sec2p {
+#footer p {
     font-size: 20px;
-    margin: 60px 0;
-}
-
-.sec2p p {
-    line-height: 28px;
-    margin: 30px 0;
-    color: rgb(182, 182, 182);
-}
-
-.sec2BTN a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 15px 40px;
-    background-color: rgb(64, 64, 64);
+    color: #A7A7A7;
 }
